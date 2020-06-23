@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.dami.trolley.dao.trolleyMapper">
+    <insert id="insertTrolley">
+        insert into trolley(uid,gid,number) values(#{uid},#{gid},#{number})
+    </insert>
+    <update id="updateTrolley">
+        update trolley set number=#{number} where tid=#{tid}
+    </update>
+    <update id="updateState">
+        update trolley set orders_number=#{param2} where uid = #{param1}
+    </update>
+    <update id="updateTrolley1">
+        update trolley set number=#{number} where tid=#{tid}
+    </update>
+    <delete id="deleteTrolley">
+        delete from trolley where tid = #{tid}
+    </delete>
+
+    <select id="selectTrolleyByUG" resultType="com.dami.trolley.bean.trolley">
+        select * from trolley where uid = #{uid} and gid = #{gid} and orders_number is null
+    </select>
+    <select id="selectTrolleyCountByuid" resultType="java.lang.Integer">
+        select count(*) from trolley WHERE uid=#{uid} AND orders_number IS NULL
+    </select>
+    <select id="findTrolley" resultType="com.dami.trolley.bean.trolley">
+        select * from trolley where uid = #{uid} AND orders_number IS NULL
+    </select>
+</mapper>

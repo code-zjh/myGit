@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.dami.user.dao.UserMapper">
+    <insert id="insertUser" parameterType="com.dami.user.bean.user">
+		insert into USER(name,sex,phone,area,username,password,photo,create_time)
+		values (#{name},#{sex},#{phone},#{area},#{username},#{password},#{photo},#{create_time});
+	</insert>
+
+    <delete id="deleteByUid">
+        delete from user where uid in(#{ids});
+    </delete>
+    <select id="checkUsername" resultType="com.dami.user.bean.user">
+        select * from user where username = #{username};
+    </select>
+    <select id="checkPhone" resultType="com.dami.user.bean.user">
+        select * from user where phone = #{phone};
+    </select>
+    <select id="checkAdminByManager" resultType="com.dami.user.bean.user">
+        select * from user where manager = 0 and username = #{param1} and password = #{param2}
+    </select>
+    <select id="selectUserByUid" resultType="com.dami.user.bean.user">
+        select * from user where uid = #{uid}
+    </select>
+
+    <select id="selectUserByPhone" resultType="com.dami.user.bean.user">
+        select * from user where phone = #{phone}
+    </select>
+    <select id="selectUserList" resultType="com.dami.user.bean.user">
+        select * from user
+    </select>
+    <update id="updateManager">
+        update user set manager=#{param2} where uid = #{param1}
+    </update>
+
+</mapper>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.dami.orders.dao.OrdersMapper">
+    <insert id="insertOrders">
+    insert into orders(orders_number,uid,sum_price,state,create_time,count_number)
+    values(#{orders_number},#{uid},#{sum_price},#{state},#{create_time},#{count_number})
+    </insert>
+    <update id="updateOrders">
+        update orders set sum_price=#{sum_price},count_number=#{count_number} where orders_number=#{orders_number}
+    </update>
+    <update id="updateOrderState">
+        update orders set state = #{param1} where orders_number=#{param2}
+    </update>
+
+    <select id="selectOrderByUid" resultType="com.dami.orders.bean.orders">
+        select * from orders where uid = #{uid}
+    </select>
+</mapper>

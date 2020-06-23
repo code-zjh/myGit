@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a6301a7e-76cc-4c72-8f1b-fdaefa373157" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="spring-beans.schema" />
+        <option value="Class" />
+        <option value="Interface" />
+        <option value="MyBatis-config" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="E:/apache-maven-3.6.3" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1bfsYMkDenn93zQCMEYQzV1oXo5" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/dami/utils" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.dami.convert" />
+      <recent name="com.alipay.config" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\King_Zzzz\Desktop\毕业设计\DaMi\src\main\java\com\dami\utils" />
+      <recent name="C:\Users\King_Zzzz\Desktop\毕业设计\DaMi\src\main\webapp\admin" />
+      <recent name="C:\Users\King_Zzzz\Desktop\毕业设计\DaMi\src\main\webapp" />
+      <recent name="C:\Users\King_Zzzz\Desktop\毕业设计\DaMi\src\main\java\com\dami\user\bean" />
+      <recent name="C:\Users\King_Zzzz\Desktop\毕业设计\DaMi\src\main\java\com\dami\trolley\bean" />
+    </key>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a6301a7e-76cc-4c72-8f1b-fdaefa373157" name="Default Changelist" comment="" />
+      <created>1589034528062</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1589034528062</updated>
+      <workItem from="1589034532516" duration="61055000" />
+      <workItem from="1589884090043" duration="5606000" />
+      <workItem from="1589939756904" duration="2127000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="574" y="121" key="#com.intellij.ide.util.MemberChooser" timestamp="1589646203266">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="574" y="121" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1589646203266" />
+    <state x="400" y="344" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1589075417179">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="400" y="344" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1536.824@0.0.1536.824" timestamp="1589075417179" />
+    <state x="556" y="117" key="FileChooserDialogImpl" timestamp="1589338952433">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="556" y="117" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1589338952433" />
+    <state width="1493" height="155" key="GridCell.Tab.0.bottom" timestamp="1589895399764">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="155" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1589895399764" />
+    <state width="1493" height="155" key="GridCell.Tab.0.center" timestamp="1589895399764">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="155" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1589895399764" />
+    <state width="1493" height="155" key="GridCell.Tab.0.left" timestamp="1589895399764">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="155" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1589895399764" />
+    <state width="1493" height="155" key="GridCell.Tab.0.right" timestamp="1589895399764">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="155" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1589895399764" />
+    <state x="169" y="142" key="Maven.ArtifactSearchDialog" timestamp="1589040823000">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="169" y="142" key="Maven.ArtifactSearchDialog/0.0.1536.824@0.0.1536.824" timestamp="1589040823000" />
+    <state x="415" y="119" key="NewModule_or_Project.wizard" timestamp="1589042525085">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="415" y="119" key="NewModule_or_Project.wizard/0.0.1536.824@0.0.1536.824" timestamp="1589042525085" />
+    <state x="425" y="187" key="run.anything.popup" timestamp="1589359372877">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1589359372877" />
+  </component>
+</project>
